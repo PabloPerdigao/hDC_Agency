@@ -11,6 +11,7 @@ body {
 
 .container {
     padding: 70px 0;
+    text-align: center;
 }
 
 p, li {
@@ -280,6 +281,171 @@ header, .navbar {
   background-color: #65bef9;
   border-color: #65bef9;
 }
+
+/* Newsletter */
+
+#new-area {
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+#new-area p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+form {
+  text-align: center;
+}
+
+
+#email-input {
+  border-radius:0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid #3ec1d5;
+  display: inline;
+  box-sizing: border-box;
+  width: 40%;
+  height: 40px;
+}
+
+#news-btn {
+  align-items: center;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid #3ec1d5;
+  background-color: #3ec1d5;
+  text-transform: uppercase;
+  color: #FFF;
+
+  height: 40px;
+  padding: 0 30px;
+  margin-left: -130px;
+  position: absolute;
+  transition: .5s;
+}
+
+#news-btn:hover {
+  background-color: #FFF;
+  color: #3ec1d5;
+}
+
+
+/* call to action */
+ #call-area {
+  background-color: #3ec1d5;
+  text-transform:uppercase;
+ }
+
+ #call-area .container {
+  padding: 40px 100px;
+ }
+
+ #call-area .row {
+  display: block;
+  text-align: center;
+ }
+
+#call-area p{
+  color: #FFF;
+  font-weight: bold;
+  font-size: 20px;
+  width: auto;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  display: inline;
+  height: 60px;
+  line-height: 60px;
+}
+
+
+#call-area #call-btn {
+  background-color: #FFF;
+  color: #3ec1d5;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 30px;
+  width: auto;
+  letter-spacing: 2px;
+}
+
+/* Rodapé */
+
+#contact-area {
+  text-align: center;
+}
+
+.contact-box {
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #3ec1d5;
+}
+
+.contact-box i {
+  color: #444;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-box p {
+  font-size: 16px;
+}
+
+.contact-title {
+  font-weight: bold;
+  color: #3ec1d5;
+}
+
+#msg-box p {
+  font-size: 22px;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+  border-radius: 0;
+  margin-bottom: 15px;
+}
+
+#contact-form .main-btn {
+  width: 120px;
+  height: 50px;
+}
+
+#contact-form .main-btn:hover {
+  color: #3ec1d5;
+}
+
+/* Copy */
+
+#copy-area {
+  background-color: #f1f1f1;
+}
+
+#copy-area .container {
+  padding: 10px 0;
+  text-align: center;
+
+}
+
+#copy-area .container p {
+  margin-bottom: 0;
+}
+
+#copy-area .container a {
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+}
+
+#copy-area .container a:hover{
+  color: #3ec1d5;
+}
+
+
+
 
 
 
